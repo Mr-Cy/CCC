@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .box{
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        margin: 200px auto;
+        animation: a 3s  alternate infinite ease-in;
+
+
+    }
+    .box:hover{
+
+        transform: scale(1.5);
+    }
+    @keyframes a {
+
+        0%{
+            transform: translateX(0px);
+        }
+        100%{
+            transform: translateX(600px);
+        }
+    }
+
+
+
+</style>
+<body>
+<div class="box">
+<p>11111111</p>
+</div>
+</body>
+</html>
